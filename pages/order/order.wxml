@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="body pt20">
+    <view class="list-cells" wx:for="{{list}}">
+        <view class="list-content">
+            <view class="list-cell list-cell-noborder">
+                <text>{{item.name}}</text>
+                <text class="pull-right green-text" wx:if="{{item.isPay}}">配送中</text>
+                <text class="pull-right gray999-text" wx:if="{{!item.isPay}}">已取消</text>
+            </view>
+            <view class="list-cell clearfix">
+                <image src="{{item.pic}}" class="order-item-image"></image>
+                <view class="order-item-content">
+                    <view class="red-text">¥{{item.fee}}</view>
+                    <view class="gray999-text font32 mt10 mb10">{{item.createTime}}</view>
+                    <view class="gray999-text font32">
+                       {{item.description}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

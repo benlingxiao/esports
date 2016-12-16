@@ -1,0 +1,27 @@
+<!--addr-add.wxml-->
+<view class="body">
+    <view class="list-title">联系人</view>
+    <view class="list-cells">
+        <view class="list-content">
+            <view class="list-cell list-cell-noborder clearfix list-form-input">
+                <text class="list-form-title">姓名：</text>
+                <input name="input" type="text" class="input" placeholder-class="placeholder" placeholder="请填写收货人的姓名" bindinput="setName"/>
+            </view>
+        </view>
+        <view class="list-content">
+            <view class="list-cell clearfix list-form-input">
+                <text class="list-form-title">手机：</text>
+                <input name="number" type="text" class="input" placeholder-class="placeholder" placeholder="请填写收货手机号码" bindinput="setPhone"/>
+            </view>
+        </view>
+    </view>
+    <view class="list-title">收货地址</view>
+    <view class="list-cells">
+        <view class="list-content">
+            <view class="list-cell list-cell-noborder clearfix list-form-input">
+                <input name="input" type="text" class="input" placeholder-class="placeholder" placeholder="请填写收货地址" bindinput="setAddr"></input>
+            </view>
+        </view>
+    </view>
+    <button type="primary" class="mt30" bindtap="submitBtn">新增</button>
+</view>

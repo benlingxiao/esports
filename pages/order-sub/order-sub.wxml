@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="body pt20">
+    <view class="list-cells">
+        <view class="list-content">
+            <view class="list-cell list-cell-noborder">
+                <text>{{commodities.name}}</text>
+            </view>
+            <view class="list-cell clearfix">
+                <image src="{{commodities.pic}}" class="order-item-image"></image>
+                <view class="order-item-content">
+                    <view class="red-text">¥{{commodities.prize}}</view>
+                    <view class="gray999-text font32 mt10 mb10">{{order.createTime}}</view>
+                    <view class="gray999-text font32">
+                        {{commodities.description}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+ 
+    <view>
+        <view class="list-title">联系人</view>
+        <view class="list-cells">
+            <view class="list-content">
+                <view class="list-cell list-cell-noborder clearfix list-form-input">
+                    <text class="list-form-title">姓名：</text>
+                    <text>{{addr.reciverName}}</text>
+                </view>
+            </view>
+            <view class="list-content">
+                <view class="list-cell clearfix list-form-input">
+                    <text class="list-form-title">手机：</text>
+                    <text>{{addr.reciverPhone}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="list-title">收货地址</view>
+        <view class="list-cells">
+            <view class="list-content">
+                <view class="list-cell list-cell-noborder clearfix list-form-input">
+                    {{addr.addr}}
+                </view>
+            </view>
+        </view>
+    </view>
+    <navigator class="list-add-btn" url="../paySuc/paySuc" redirect="true">
+        <text>立即支付</text>
+    </navigator>
+</view>

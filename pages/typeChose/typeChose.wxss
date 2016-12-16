@@ -1,0 +1,12 @@
+.typeChose-question{
+	font-size: 40rpx;
+	margin-bottom: 50rpx;
+	color: #333;
+}
+.typeChose-nextBtn{
+	position: absolute;
+	bottom: 30rpx;
+	width: 740rpx;
+	padding: 5rpx;
+	left: 0;
+}

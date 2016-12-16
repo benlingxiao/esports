@@ -1,0 +1,6 @@
+.kr-swiper{
+	position: relative;
+}
+.kr-swiper-image{
+	width: 100%;
+}

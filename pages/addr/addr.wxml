@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="body pt20">
+    <view class="list-cells">
+        <view class="list-content" wx:for="{{list}}" data-id="{{item.id}}">
+            <view class="list-cell">
+                <view class="gray999-text font32 pl10"><text>{{item.reciverName}}</text><text class="pull-right">{{item.reciverPhone}}</text></view>
+                <view class="mt20 pl10">{{item.addr}}<image src="../../images/icon/remove.png" class="list-icon-remove" data-id="{{item.id}}" bindtap="delAddr"></image></view>
+                <view class="red-text font32 pl10 text-right" wx:if="{{item.isDefault}}"><text>默认地址</text></view>
+            </view>
+        </view>
+    </view>
+    <navigator class="addr-add-btn" url="../addr-add/addr-add">
+        <image src="../../images/icon/plus.png" class="addr-add-btn-image"></image>
+        <text>添加收货地址</text>
+    </navigator>
+</view>

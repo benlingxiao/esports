@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="body">
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="list-cells">
+        <navigator class="list-content" url="../addr/addr">
+            <view class="list-cell list-cell-noborder">
+                <image src="../../images/icon/addr.png" class="list-cell-lefticon"></image>
+                <text>管理收货地址</text>
+                <image src="../../images/icon/right.png" class="list-cell-icon"></image>
+            </view>
+        </navigator>
+        <navigator class="list-content" url="../order/order">
+            <view class="list-cell">
+                <image src="../../images/icon/order.png" class="list-cell-lefticon"></image>
+                <text>查看历史订单</text>
+                <image src="../../images/icon/right.png" class="list-cell-icon"></image>
+            </view>
+        </navigator>
+    </view>
+    <view class="list-cells">
+        <navigator class="list-content">
+            <view class="list-cell list-cell-noborder">
+                <image src="../../images/icon/share.png" class="list-cell-lefticon"></image>
+                <text>分享</text>
+                <image src="../../images/icon/right.png" class="list-cell-icon"></image>
+            </view>
+        </navigator>
+    </view>
+</view>

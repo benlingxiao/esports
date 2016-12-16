@@ -1,0 +1,18 @@
+.addr-add-btn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90rpx;
+    text-align: center;
+    background: #fff;
+    font-size: 30rpx;
+    line-height: 90rpx;
+    color: #333;
+}
+.addr-add-btn-image{
+    height: 50rpx;
+    width: 50rpx;
+    vertical-align: middle;
+    margin-right: 15rpx;
+}

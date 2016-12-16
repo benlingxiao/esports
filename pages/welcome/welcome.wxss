@@ -1,0 +1,14 @@
+.welcome-logo-img{
+	margin-top: 100rpx;
+	width: 500rpx;
+	height: 500rpx;
+}
+.welcome-logo-text{
+	font-family: 'SimSun';
+	margin-top: 80rpx;
+	text-align: center;
+	font-size: 80rpx;
+	color: #999;
+	text-shadow: 1px 1px 1px #999;
+	letter-spacing: 6rpx;
+}

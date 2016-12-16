@@ -1,0 +1,5 @@
+<!--welcome.wxml-->
+<view class="body">
+  <view class="text-center"><image src="../../images/logo.jpg" class="welcome-logo-img"></image></view>
+  <view class="welcome-logo-text">懒人零食</view>
+</view>

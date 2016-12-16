@@ -1,0 +1,23 @@
+{
+  "pages":[
+  	"pages/welcome/welcome",
+    "pages/paySuc/paySuc",
+    "pages/payFail/payFail",
+    "pages/order-sub/order-sub",
+    "pages/list/list",
+    "pages/order/order",
+    "pages/addr-add/addr-add",
+    "pages/addr/addr",
+    "pages/user/user",
+    "pages/typeChose/typeChose",
+    "pages/index/index"
+  ],
+  "window":{
+    "navigationBarTextStyle":"black",
+    "navigationBarBackgroundColor": "#f5f5f5",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh":"true",
+    "backgroundColor":"#f5f5f5"
+  },
+  "debug": true
+}

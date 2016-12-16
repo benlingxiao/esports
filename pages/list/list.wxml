@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="body">
+    <navigator class="userCenter" url="../user/user"><image src="../../images/icon/userCenter.png" class="userCenter-icon"></image></navigator>
+    <swiper class="swiper" duration="1000" current="{{current}}" bindchange="bindchange">
+        <swiper-item class="swiper-item" wx:for="{{list}}">
+            <view class="swiper-item-content">
+                <image src="{{item.pic}}" class="swiper-item-image"/>
+                <view class="mt20">{{item.name}}</view>
+                <view class="mt20 gray999-text font32 mb20">{{item.description}}</view>
+                <view class="red-text font44 text-right pr20">   
+                    ¥{{item.prize}}
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+    <view class="list-add-btn" bindtap="submitBtn">
+        <text>现在下单</text>
+    </view>
+</view>

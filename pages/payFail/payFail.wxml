@@ -1,0 +1,7 @@
+<view class="body text-center">
+    <image src="../../images/icon/fail.png" class="pay-image"></image>
+    <view class="pay-text">支付失败</view>
+    <view class="pl30 pr30 mt30 pt30">
+        <button type="" bindtap="navigate">返回</button>
+    </view>
+</view>

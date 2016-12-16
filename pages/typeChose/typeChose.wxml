@@ -1,0 +1,9 @@
+<!--typeChose.wxml-->
+<view class="body pl20 pr20">
+    <view class="typeChose-question">请选择您最常引用的瓶装矿泉水：</view>
+    <button type="primary" class="mb30" data-value="1" value="1" bindtap="choseLevel">怡宝矿泉水</button>
+    <button type="primary" class="mb30" value="2" bindtap="choseLevel">百岁山矿泉水</button>
+    <button type="primary" class="mb30" value="3">恒大冰泉矿泉水</button>
+    <button type="primary" class="mb30" value="4">白开水</button>
+    <view class="typeChose-nextBtn"><button class="nextStep" bindtap="nextStep">跳过</button></view>
+</view>
